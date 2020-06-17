@@ -1,0 +1,16 @@
+2020年以来的图像分割进展：结构、损失函数、数据集以及框架（深度学习）
+1.什么是图像分割？
+图像分割将一个图像分割成多个区域。在这个过程中，图像中的每个像素都与一个目标类型相关联。
+图像分割主要有两种类型：语义分割和实例分割。
+在语义分割中，同一类型的所有目标都使用一个类标签进行标记，而在实例分割中，相似的目标使用各自独立的标签。
+2.图像分割框架
+图像分割的基本框架包括编码器和解码器。
+编码器从图像中 提取特征，解码器负责生成最终的输出，通常是一个包含目标轮廓的分割掩码。
+（U-Net\Fast FCN\Greated SCNN\Mask R-CNN）
+3.图像分割和损失函数
+常用的是交叉熵损失函数，此外：
+Focal Loss/Dice Loss/Intersection over Union-balanced Loss
+4.图像分割数据集
+COCO数据集/PASCAL VOC/Cityscapes数据集
+5.图像分割框架
+FastAI library/Deep Mask/Multipath/OpenCV/Sefexa Image Segmentation Tool/Fritz
